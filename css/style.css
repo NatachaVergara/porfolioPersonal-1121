@@ -19,6 +19,8 @@
 
 
 /*Lista del navbar*/
+
+
 .navbar ul{
     display:flex;
     flex-direction:column;
@@ -33,9 +35,17 @@
 
 .nav-item a:visited{
     text-decoration: none;
-    color:aliceblue
+    color:black
 }
 
+.nav-item:hover{
+    font-size: 20px;
+}
+
+/*Nav redes sociales para desktop*/
+.navbarRedesSociales a:hover{
+     font-size: 30px;
+}
 
 /*Cuerpo principal*/
 .mainBody{
@@ -80,8 +90,7 @@ form button{
 
 .mainBody{
     width: 100%;
-    margin-left: 0px;
-    
+    margin-left: 0px;   
     
 }
 
@@ -112,4 +121,24 @@ form button{
 }
 
 
+}
+
+/*Tablet*/
+@media screen and (min-width: 800px) and (max-width: 1279px){
+
+.mainBody{
+    width: 100%;
+    margin-left: 0px;   
+    
+}
+.form{
+    width: 50%;
+}
+
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1350px ) {
+    .mainBody{
+    margin-left: 320px;
+}
 }
