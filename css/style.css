@@ -1,0 +1,115 @@
+*{margin:0;padding: 0; box-sizing:border-box; }
+/*NavBar*/
+.navbarVertical{
+  height: 100%;  
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,9,121,1) 12%, rgba(0,212,255,1) 100%);
+}
+
+.responsive{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,9,121,1) 12%, rgba(0,212,255,1) 100%);
+}
+
+
+/*Lista del navbar*/
+.navbar ul{
+    display:flex;
+    flex-direction:column;
+}
+
+.nav-item{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    
+}
+
+.nav-item a:visited{
+    text-decoration: none;
+    color:aliceblue
+}
+
+
+/*Cuerpo principal*/
+.mainBody{
+    margin-left: 300px;
+}
+
+/*seccion skills*/
+.card {
+    margin: 1em;
+}
+
+.card img{
+ margin-top: 15px;
+}
+/*Seccion formulario*/
+.form{
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    padding: 3rem;
+}
+
+form label{
+   width: 15em;
+}
+form input{
+    width: 15em;
+    
+}
+form textarea{
+    width: 15em;
+}
+
+form button{
+    width: 5em;
+    margin: 10px;
+}
+
+/*celular*/
+@media screen and (max-width: 700px){
+
+.mainBody{
+    width: 100%;
+    margin-left: 0px;
+    
+    
+}
+
+.form{
+    width: 90%;
+    margin: auto;
+    padding-left: 0;
+}
+
+
+form label{
+   width: 10em;
+   padding-left: 0;
+}
+form input{
+    width: 10em;
+    padding-left: 0;
+    
+}
+form textarea{
+    width: 10em;
+    padding-left: 0;
+}
+
+form button{
+    width: 5em;
+    margin: 10px;
+}
+
+
+}
