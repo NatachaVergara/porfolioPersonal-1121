@@ -52,8 +52,14 @@
 .mainBody{
     margin-left: 300px;
 }
+/*skills*/
+.skills img{
+    width: 100px;
+    padding: 10px;
+}
 
-/*seccion skills*/
+
+/*seccion proyectos y sus cards*/
 .card {
     position: relative;
     margin: 1em;
@@ -123,6 +129,11 @@ form button{
     width: 100%;
     margin-left: 0px;   
     
+}
+
+.skills img{
+    width: 90px;
+
 }
 
 .form{
