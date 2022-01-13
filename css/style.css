@@ -93,7 +93,7 @@ section h1{
     margin: 1em;
     box-shadow : 0 5px 20px rgba(0,0,0,0.5);
     height : 150px; 
-    transition : 0.5s ease-in-out;
+    transition : 0.3s ease-in-out;
 }
 
 .card:hover {
@@ -105,14 +105,14 @@ section h1{
     top : -140px;
     visibility : hidden;
     opacity : 0;
-    transition : 0.5s ease-in-out;
+    transition : 0.3s ease-in-out;
 }
 
 .card:hover .card-body{
     margin-top : 140px;
     visibility : visible;
     opacity : 1;
-    transition-delay: 0.5s;
+    transition-delay: 0.3s;
 }
 
 .card img{
