@@ -45,8 +45,6 @@ section h1{
     color:black;
     font-family: 'Montserrat', sans-serif;
     
-    
-    
 }
 
 
@@ -68,7 +66,7 @@ section h1{
 /*Cuerpo principal*/
 .mainBody{
     /*Permite que el curpo principal no quede por debajo del navbar*/
-    margin-left: 300px;
+    margin-left: 25%;
 }
 /*skills*/
 .skills .row{
@@ -222,16 +220,3 @@ form button{
 
 }
 
-/*table landscape*/
-@media screen and (min-width: 1280px) and (max-width: 1350px ) {
-    .mainBody{
-    margin-left: 320px;
-}
-}
-
-/*Televisores grandes*/
-@media screen  and (min-width: 1800px) {
-    .mainBody{
-    margin-left: 450px;
-}
-}
